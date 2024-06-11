@@ -1,0 +1,36 @@
+from itertools import permutations
+
+def solve_cryptarithmetic(equation):
+    letters = set(c for c in equation if c.isalpha())
+    
+    if len(letters) > 10:
+        return None
+
+    for perm in permutations("0123456789", len(letters)):
+        mapping = dict(zip(letters, perm))
+        translated_equation = equation
+        for letter, digit in mapping.items():
+            translated_equation = translated_equation.replace(letter, digit)
+        
+        lhs, rhs = translated_equation.split('=')
+        
+        try:
+            if eval(lhs) == int(rhs):
+                return mapping, lhs, rhs
+        except:
+            continue
+    
+    return None
+
+if __name__ == "__main__":
+    equation = input("Enter the cryptarithmetic equation (e.g., SEND+MORE=MONEY): ")
+    
+    result = solve_cryptarithmetic(equation)
+    if result:
+        mapping, lhs, rhs = result
+        print(f"Solution found: {lhs} = {rhs}")
+        print("Mapping:")
+        for letter, digit in mapping.items():
+            print(f"{letter} = {digit}")
+    else:
+        print("No solution found")
