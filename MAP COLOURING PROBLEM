@@ -51,3 +51,5 @@ if result is not None:
     print(result)
 else:
     print("No solution exists.")
+Solution found: {'WA': ['R', 'G', 'B'], 'NT': ['R', 'G', 'B'], 'SA': ['R', 'G', 'B'], 'Q': ['R', 'G', 'B'], 'NSW': ['R', 'G', 'B'], 'V': ['R', 'G', 'B'], 'T': ['R', 'G', 'B']}
+{'WA': 'R', 'NT': 'G', 'SA': 'B', 'Q': 'R', 'NSW': 'R', 'V': 'G', 'T': 'B'}
