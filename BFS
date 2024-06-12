@@ -21,3 +21,6 @@ if __name__ == "__main__":
     }
     print("BFS Traversal:")
     bfs(graph, 'A')
+
+BFS Traversal:
+A B C D E F 
