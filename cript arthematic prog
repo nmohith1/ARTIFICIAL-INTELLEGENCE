@@ -34,3 +34,14 @@ if __name__ == "__main__":
             print(f"{letter} = {digit}")
     else:
         print("No solution found")
+
+Enter the cryptarithmetic equation (e.g., SEND+MORE=MONEY): SOON+MOON=JUNE
+Solution found: 1225+6225 = 7450
+Mapping:
+O = 2
+J = 7
+S = 1
+M = 6
+U = 4
+E = 0
+N = 5
