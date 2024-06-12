@@ -17,3 +17,4 @@ if __name__ == "__main__":
     target = 2
     jug1_final, jug2_final = water_jug_problem(jug1_capacity, jug2_capacity, target)
     print(f"Final state: Jug1: {jug1_final} gallons, Jug2: {jug2_final} gallons")
+Final state: Jug1: 2 gallons, Jug2: 3 gallons
