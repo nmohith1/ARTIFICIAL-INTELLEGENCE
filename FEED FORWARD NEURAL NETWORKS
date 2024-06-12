@@ -10,3 +10,17 @@ class NeuralNetwork:
         
         self.weights_hidden_output = np.random.randn(self.hidden_size, self.output_size)
         self.bias_output = np.zeros((1, self.output_size))
+
+Weights from input to hidden layer:
+ [[ 1.09494775 -0.73254698  0.816125    0.19451707]
+  [ 0.26969492 -0.31964464  0.9285898  -0.5828667 ]
+  [-0.18317516 -0.48230787 -0.61178197  0.31234877]]
+Bias of hidden layer:
+ [[0. 0. 0. 0.]]
+Weights from hidden to output layer:
+ [[ 0.10387611  0.73231443]
+  [-1.31995618 -0.54036731]
+  [ 1.00156314 -0.48666028]
+  [-0.52710662 -1.40328592]]
+Bias of output layer:
+ [[0. 0.]]
