@@ -38,3 +38,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+Enter the number of cities: 4
+Enter the coordinates of city 1 (x y): 1 2
+Enter the coordinates of city 2 (x y): 2 4
+Enter the coordinates of city 3 (x y): 3 2
+Enter the coordinates of city 4 (x y): 1 4
+Best path: 0->2->1->3
+Minimum distance: 8
