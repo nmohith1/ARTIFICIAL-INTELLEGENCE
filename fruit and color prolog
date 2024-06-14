@@ -1,0 +1,13 @@
+color(apple, red).
+color(banana, yellow).
+color(orange, orange).
+color(grape, purple).
+color(strawberry, red).
+
+color(Fruit, purple).
+Fruit = grape.
+color(strawberry, Color).
+Color = red.
+
+
+
